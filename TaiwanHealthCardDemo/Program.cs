@@ -74,6 +74,9 @@ namespace TaiwanHealthCardDemo
                             $"Holder Sex   : { holderSex }\r\n" +
                             $"Holder Birth : { holderBirth }\r\n" +
                             $"Card Issue On: { cardIssueDate }");
+
+                        Console.WriteLine("\r\nPress any key to exit.");
+                        Console.ReadKey();
                     }
                 }
             }
