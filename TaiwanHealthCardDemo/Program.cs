@@ -62,9 +62,9 @@ namespace TaiwanHealthCardDemo
                         var cardNumber = GetCardNumber(data[..12]);
                         var cardHolderName = GetHolderName(data[12..32]);
                         var holderIdNum = GetHolderIdNum(data[32..42]);
-                        var holderBirth = GetHolderBirthStr(data[43..49]);
+                        var holderBirth = GetHolderBirthStr(data[42..49]);
                         var holderSex = GetGender(data[49..50]);
-                        var cardIssueDate = GetIssueDate(data[51..57]);
+                        var cardIssueDate = GetIssueDate(data[50..57]);
 
                         Console.WriteLine("\r\n=== Health Card Content: ===\r\n");
                         Console.WriteLine(
