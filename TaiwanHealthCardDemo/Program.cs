@@ -131,7 +131,7 @@ namespace TaiwanHealthCardDemo
                 holderName = big5EncodingInfo.GetEncoding().GetString(input);
             }
 
-            return holderName;
+            return holderName.TrimEnd('\0');
         }
     }
 }
