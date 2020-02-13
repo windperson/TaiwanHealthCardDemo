@@ -131,7 +131,15 @@ namespace TaiwanHealthCardDemo
                 holderName = big5EncodingInfo.GetEncoding().GetString(input);
             }
 
-            return holderName.TrimEnd('\0');
+            holderName = holderName.TrimEnd('\0');
+
+            //NOTE: Some newer NHI cards have fill space characters to the end
+            if (' ' == holderName.Last())
+            {
+                holderName = holderName.TrimEnd();
+            }
+
+            return holderName;
         }
     }
 }
