@@ -8,7 +8,7 @@
   <ItemGroup>
     <PackageReference Include="PCSC" Version="5.0.0" />
     <PackageReference Include="PCSC.Iso7816" Version="5.0.0" />
-    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.1" />
   </ItemGroup>
 
 </Project>
