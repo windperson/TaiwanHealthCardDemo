@@ -1,6 +1,6 @@
 # Taiwan NHI Card Reading Data Demo
 
-This repoistory contains a .NET Core 3.1 demo console app to show how to read the [***Public*** allow access data of Taiwan resident's **NHI**(National Health Insurance) Card](https://www.nhi.gov.tw/Content_List.aspx?n=ABBBF3906BFF712A) via Smart Card Reader:
+This repoistory contains a .NET 6.0 demo console app to show how to read the [***Public*** allow access data of Taiwan resident's **NHI**(National Health Insurance) Card](https://www.nhi.gov.tw/Content_List.aspx?n=ABBBF3906BFF712A) via Smart Card Reader:
 
 ![screen shot](./img/ScreenShot.png)
 
